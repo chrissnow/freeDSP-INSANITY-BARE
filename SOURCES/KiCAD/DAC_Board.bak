@@ -1,0 +1,124 @@
+EESchema Schematic File Version 4
+LIBS:freeDSP_1452-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3500 3650 2050 1600
+U 5D2CD56B
+F0 "DAC_Filters" 50
+F1 "DAC_Filters.sch" 50
+$EndSheet
+$Sheet
+S 7500 2600 1550 1450
+U 5D7CBA43
+F0 "DAC_Power" 50
+F1 "DAC_Power.sch" 50
+$EndSheet
+Wire Wire Line
+	5950 1500 5800 1500
+NoConn ~ 5950 1700
+NoConn ~ 5950 2000
+NoConn ~ 5950 2100
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0132
+U 1 1 5D9994FE
+P 6550 2200
+AR Path="/5D9994FE" Ref="#PWR0132"  Part="1" 
+AR Path="/5D2CD3DD/5D9994FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D2CD3DD/5D9994FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D9994FE" Ref="#PWR0193"  Part="1" 
+F 0 "#PWR0193" H 6550 1950 50  0001 C CNN
+F 1 "GND" H 6555 2027 50  0000 C CNN
+F 2 "" H 6550 2200 60  0000 C CNN
+F 3 "" H 6550 2200 60  0000 C CNN
+	1    6550 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2100 6550 2200
+Connection ~ 6550 2100
+Wire Wire Line
+	6550 2100 6550 2000
+Connection ~ 6550 2000
+Wire Wire Line
+	6550 1900 6550 2000
+Connection ~ 6550 1900
+Wire Wire Line
+	6550 1800 6550 1900
+Connection ~ 6550 1800
+Wire Wire Line
+	6550 1700 6550 1800
+Connection ~ 6550 1700
+Wire Wire Line
+	6550 1500 6550 1600
+Wire Wire Line
+	6550 1700 6550 1600
+Connection ~ 6550 1600
+$Comp
+L freeDSP_1452-rescue:STDCONN-fdsp_connector P?
+U 1 1 5D999512
+P 6250 1850
+AR Path="/5D2C73C7/5D2CD3DD/5D999512" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D999512" Ref="P46"  Part="1" 
+AR Path="/5D999512" Ref="P1"  Part="1" 
+AR Path="/5D2CD3DD/5D999512" Ref="P?"  Part="1" 
+F 0 "P46" H 6250 2425 50  0000 C CNN
+F 1 "STDCONN" H 6250 2334 50  0000 C CNN
+F 2 "fdsp_connector:IDC_Header_Straight_16pins" H 6250 650 60  0001 C CNN
+F 3 "" H 6250 650 60  0000 C CNN
+	1    6250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 1900 5950 1900
+Wire Wire Line
+	5950 2200 5800 2200
+$Sheet
+S 3450 1250 1850 1650
+U 5D2CD3DD
+F0 "DAC" 50
+F1 "DAC.sch" 50
+F2 "SDATA_OUT3" I R 5300 1600 50 
+F3 "BCLK_OUT3" I R 5300 1800 50 
+F4 "LRCLK_OUT3" I R 5300 2000 50 
+F5 "MCLK_DAC" I R 5300 2150 50 
+$EndSheet
+Wire Wire Line
+	5300 1600 5950 1600
+Wire Wire Line
+	5300 1800 5950 1800
+Wire Wire Line
+	5750 1900 5750 2000
+Wire Wire Line
+	5750 2000 5300 2000
+Wire Wire Line
+	5800 2200 5800 2150
+Wire Wire Line
+	5800 2150 5300 2150
+$Comp
+L freeDSP_1452-rescue:VIN-fdsp_power #PWR0133
+U 1 1 5D851892
+P 5800 1300
+F 0 "#PWR0133" H 5800 1150 50  0001 C CNN
+F 1 "VIN" H 5800 1440 50  0000 C CNN
+F 2 "" H 5800 1300 60  0000 C CNN
+F 3 "" H 5800 1300 60  0000 C CNN
+	1    5800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1300 5800 1500
+$EndSCHEMATC

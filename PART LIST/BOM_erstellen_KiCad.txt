@@ -1,0 +1,3 @@
+BOM-Export über PCBNEW
+
+-> Datei -> Feritungsdaten erstellen -> BOM-Datei !!! Viel besser als die BOM aus EESCHEMA

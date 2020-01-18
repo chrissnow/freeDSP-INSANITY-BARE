@@ -1,0 +1,112 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 25AA1024
+D 25AA1024 - 1Mbit SPI EEPROM
+K EEPROM
+$ENDCMP
+#
+$CMP 25AA512
+D 25AA512 - 512kBit SPI EEPROM
+K EEPROM
+$ENDCMP
+#
+$CMP ADAU1452
+D Analog Devices SigmaDSP ADAU1452
+K DSP
+$ENDCMP
+#
+$CMP AK5384
+D 4ch. ADC; Cascade TDM/I2S
+K ADC
+$ENDCMP
+#
+$CMP CONN_01x01_CINCH
+D Cinch Connector 01x01; Reichelt: CBP
+K Cinch
+$ENDCMP
+#
+$CMP CONN_02x02_CINCH
+D Cinch Connector 02x02; TOP: Left(White); BOT: Right(Red)
+K Cinch
+$ENDCMP
+#
+$CMP LD1117DT33TR
+D LD1117DT33TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT223
+K REGULATOR LDO 3.3V
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LM1086IS-3.3/NOPB
+D LM1086IS-3.3, 1.A 27V Linear Regulator, Fixed Output 3.3V, TO-263
+K Voltage Regulator Adjustable 1.A Positive
+F http://www.ti.com/lit/ds/symlink/lm1086.pdf
+$ENDCMP
+#
+$CMP LM358
+D Dual Op amp (Audio)
+K OPA2353
+$ENDCMP
+#
+$CMP LMC6082
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6082.pdf
+$ENDCMP
+#
+$CMP OPA2134
+D Dual Op amp (Audio)
+$ENDCMP
+#
+$CMP OPA2353
+D Dual Op amp (Audio)
+$ENDCMP
+#
+$CMP OPA337
+D TI OPA337 Op amp.
+$ENDCMP
+#
+$CMP ORJ-6_FC684206R
+D SPDIF Dual Receiverr Toslink + RCA/Cinch
+K SPDIF
+$ENDCMP
+#
+$CMP OTJ-6_FC684206T
+D SPDIF Dual Transmitter Toslink + RCA/Cinch
+K SPDIF
+$ENDCMP
+#
+$CMP PCM1681
+D TI PCM1681 8Channel DAC; I2S/TDM; SNR: 105dB; Dyn. Range: 105dB
+$ENDCMP
+#
+$CMP PCM1681-Q1
+D TI PCM1681 Automotive 8Channel DAC; I2S/TDM; SNR: 105dB; Dyn. Range: 105dB
+$ENDCMP
+#
+$CMP PLL1705
+D PLL1705, PLL Multiclock Generator
+K Audio PLL Multiclock Generator
+F http://www.ti.com/lit/ds/symlink/pll1706.pdf
+$ENDCMP
+#
+$CMP PLR135
+D SPDIF Receiver
+K SPDIF
+$ENDCMP
+#
+$CMP PLT133
+D SPDIF Transmitter
+K SPDIF
+$ENDCMP
+#
+$CMP TL072
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
+$CMP TL082
+D Dual Op amp (Cmos)
+K ampliop
+$ENDCMP
+#
+#End Doc Library

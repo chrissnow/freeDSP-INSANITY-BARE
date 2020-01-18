@@ -1,0 +1,1290 @@
+EESchema Schematic File Version 4
+LIBS:freeDSP_1452-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR?
+U 1 1 5D82D1B2
+P 3050 5050
+AR Path="/5D385B34/5D2DBFC3/5D82D1B2" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1B2" Ref="#PWR0194"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1B2" Ref="#PWR?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1B2" Ref="#PWR0194"  Part="1" 
+F 0 "#PWR0194" H 3050 4900 50  0001 C CNN
+F 1 "+5V" H 3050 5190 50  0000 C CNN
+F 2 "" H 3050 5050 60  0000 C CNN
+F 3 "" H 3050 5050 60  0000 C CNN
+	1    3050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R?
+U 1 1 5D82D1B8
+P 2700 5200
+AR Path="/5D385B34/5D2DBFC3/5D82D1B8" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1B8" Ref="R171"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1B8" Ref="R?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1B8" Ref="R171"  Part="1" 
+F 0 "R171" H 2730 5220 50  0000 L CNN
+F 1 "1k" H 2730 5160 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2700 5200 60  0001 C CNN
+F 3 "" H 2700 5200 60  0000 C CNN
+	1    2700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R?
+U 1 1 5D82D1BE
+P 3050 5200
+AR Path="/5D385B34/5D2DBFC3/5D82D1BE" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1BE" Ref="R172"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1BE" Ref="R?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1BE" Ref="R172"  Part="1" 
+F 0 "R172" H 3080 5220 50  0000 L CNN
+F 1 "1k" H 3080 5160 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 3050 5200 60  0001 C CNN
+F 3 "" H 3050 5200 60  0000 C CNN
+	1    3050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR?
+U 1 1 5D82D1C4
+P 2700 5750
+AR Path="/5D385B34/5D2DBFC3/5D82D1C4" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1C4" Ref="#PWR0195"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1C4" Ref="#PWR?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1C4" Ref="#PWR0195"  Part="1" 
+F 0 "#PWR0195" H 2700 5500 50  0001 C CNN
+F 1 "GND" H 2700 5600 50  0000 C CNN
+F 2 "" H 2700 5750 60  0000 C CNN
+F 3 "" H 2700 5750 60  0000 C CNN
+	1    2700 5750
+	1    0    0    -1  
+$EndComp
+Text Notes 3400 5700 0    60   ~ 0
+Power Status LEDs
+$Comp
+L freeDSP_1452-rescue:+3V3-fdsp_power #PWR?
+U 1 1 5D82D1D1
+P 2700 5050
+AR Path="/5D385B34/5D2DBFC3/5D82D1D1" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1D1" Ref="#PWR0196"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1D1" Ref="#PWR?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1D1" Ref="#PWR0196"  Part="1" 
+F 0 "#PWR0196" H 2700 4900 50  0001 C CNN
+F 1 "+3V3" H 2700 5190 50  0000 C CNN
+F 2 "" H 2700 5050 60  0000 C CNN
+F 3 "" H 2700 5050 60  0000 C CNN
+	1    2700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:LED_Small-fdsp_device D?
+U 1 1 5D82D1D7
+P 3050 5500
+AR Path="/5D385B34/5D2DBFC3/5D82D1D7" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1D7" Ref="D17"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1D7" Ref="D?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1D7" Ref="D17"  Part="1" 
+F 0 "D17" H 3000 5625 50  0000 L CNN
+F 1 "green" H 2875 5400 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" V 3050 5500 60  0001 C CNN
+F 3 "" V 3050 5500 60  0000 C CNN
+	1    3050 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:LED_Small-fdsp_device D?
+U 1 1 5D82D1DD
+P 2700 5500
+AR Path="/5D385B34/5D2DBFC3/5D82D1DD" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1DD" Ref="D16"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1DD" Ref="D?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1DD" Ref="D16"  Part="1" 
+F 0 "D16" H 2650 5625 50  0000 L CNN
+F 1 "green" H 2525 5400 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" V 2700 5500 60  0001 C CNN
+F 3 "" V 2700 5500 60  0000 C CNN
+	1    2700 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:VIN-fdsp_power #PWR?
+U 1 1 5D82D1E4
+P 5500 5100
+AR Path="/5D385B34/5D2DBFC3/5D82D1E4" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1E4" Ref="#PWR0197"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1E4" Ref="#PWR?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1E4" Ref="#PWR0197"  Part="1" 
+F 0 "#PWR0197" H 5500 4950 50  0001 C CNN
+F 1 "VIN" H 5500 5240 50  0000 C CNN
+F 2 "" H 5500 5100 60  0000 C CNN
+F 3 "" H 5500 5100 60  0000 C CNN
+	1    5500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:PWR_FLAG-fdsp_power #FLG?
+U 1 1 5D82D1EA
+P 5450 5200
+AR Path="/5D385B34/5D2DBFC3/5D82D1EA" Ref="#FLG?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D82D1EA" Ref="#FLG0104"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D82D1EA" Ref="#FLG?"  Part="1" 
+AR Path="/5D7CBA43/5D82D1EA" Ref="#FLG0104"  Part="1" 
+F 0 "#FLG0104" H 5450 5295 50  0001 C CNN
+F 1 "PWR_FLAG" H 5450 5380 50  0000 C CNN
+F 2 "" H 5450 5200 60  0000 C CNN
+F 3 "" H 5450 5200 60  0000 C CNN
+	1    5450 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 5100 2700 5050
+Wire Wire Line
+	3050 5100 3050 5050
+Wire Wire Line
+	2700 5600 2700 5700
+Wire Wire Line
+	2700 5700 3050 5700
+Wire Wire Line
+	3050 5700 3050 5600
+Connection ~ 2700 5700
+Wire Wire Line
+	2700 5400 2700 5300
+Wire Wire Line
+	3050 5400 3050 5300
+Wire Wire Line
+	5450 5200 5500 5200
+Wire Wire Line
+	5500 5200 5500 5100
+Wire Wire Line
+	2700 5700 2700 5750
+$Comp
+L freeDSP_1452-rescue:FUSE-fdsp_device F?
+U 1 1 5D8966D5
+P 2250 1150
+AR Path="/5D385B34/5D2DBFC3/5D8966D5" Ref="F?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966D5" Ref="F?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966D5" Ref="F3"  Part="1" 
+AR Path="/5D7CBA43/5D8966D5" Ref="F3"  Part="1" 
+F 0 "F3" H 2250 1250 50  0000 C CNN
+F 1 "0ZCJ0050AF2E" H 2250 1050 50  0000 C CNN
+F 2 "fdsp_resistor:R_1206" H 2250 1150 60  0001 C CNN
+F 3 "" H 2250 1150 60  0000 C CNN
+F 4 "530-0ZCJ0050AF2E" H 2250 1150 60  0001 C CNN "Mouser_Part_No"
+	1    2250 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:FILTER-fdsp_device FB?
+U 1 1 5D8966DC
+P 3600 1150
+AR Path="/5D385B34/5D2DBFC3/5D8966DC" Ref="FB?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966DC" Ref="FB?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966DC" Ref="FB6"  Part="1" 
+AR Path="/5D7CBA43/5D8966DC" Ref="FB6"  Part="1" 
+F 0 "FB6" H 3600 1300 50  0000 C CNN
+F 1 "BLM18PG471SN1" H 3600 1050 50  0000 C CNN
+F 2 "fdsp_resistor:R_0603" H 3600 1150 60  0001 C CNN
+F 3 "" H 3600 1150 60  0000 C CNN
+F 4 "81-BLM18PG471SN1D" H 3600 1150 60  0001 C CNN "Mouser_Part_No"
+	1    3600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR?
+U 1 1 5D8966E2
+P 9800 2650
+AR Path="/5D385B34/5D2DBFC3/5D8966E2" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966E2" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966E2" Ref="#PWR0198"  Part="1" 
+AR Path="/5D7CBA43/5D8966E2" Ref="#PWR0198"  Part="1" 
+F 0 "#PWR0198" H 9800 2500 50  0001 C CNN
+F 1 "+5V" H 9800 2790 50  0000 C CNN
+F 2 "" H 9800 2650 60  0000 C CNN
+F 3 "" H 9800 2650 60  0000 C CNN
+	1    9800 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 5250 2150 0    60   ~ 0
+Main digital supply
+Text Notes 5050 3850 0    60   ~ 0
+additional ADC/DAC supply
+$Comp
+L freeDSP_1452-rescue:PWR_FLAG-fdsp_power #FLG?
+U 1 1 5D8966EA
+P 4400 1100
+AR Path="/5D385B34/5D2DBFC3/5D8966EA" Ref="#FLG?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966EA" Ref="#FLG?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966EA" Ref="#FLG0105"  Part="1" 
+AR Path="/5D7CBA43/5D8966EA" Ref="#FLG0105"  Part="1" 
+F 0 "#FLG0105" H 4400 1195 50  0001 C CNN
+F 1 "PWR_FLAG" H 4400 1280 50  0000 C CNN
+F 2 "" H 4400 1100 60  0000 C CNN
+F 3 "" H 4400 1100 60  0000 C CNN
+	1    4400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:D_Schottky_Small-fdsp_device D?
+U 1 1 5D8966F0
+P 1850 1150
+AR Path="/5D385B34/5D2DBFC3/5D8966F0" Ref="D?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966F0" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966F0" Ref="D14"  Part="1" 
+AR Path="/5D7CBA43/5D8966F0" Ref="D14"  Part="1" 
+F 0 "D14" H 1800 1230 50  0000 L CNN
+F 1 "B150" H 1750 1050 50  0000 L CNN
+F 2 "fdsp_diode:SMA" V 1850 1150 60  0001 C CNN
+F 3 "" V 1850 1150 60  0000 C CNN
+	1    1850 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:+3V3-fdsp_power #PWR?
+U 1 1 5D8966F6
+P 7400 1100
+AR Path="/5D385B34/5D2DBFC3/5D8966F6" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966F6" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966F6" Ref="#PWR0199"  Part="1" 
+AR Path="/5D7CBA43/5D8966F6" Ref="#PWR0199"  Part="1" 
+F 0 "#PWR0199" H 7400 950 50  0001 C CNN
+F 1 "+3V3" H 7400 1240 50  0000 C CNN
+F 2 "" H 7400 1100 60  0000 C CNN
+F 3 "" H 7400 1100 60  0000 C CNN
+	1    7400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C?
+U 1 1 5D8966FD
+P 4000 1500
+AR Path="/5D385B34/5D2DBFC3/5D8966FD" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8966FD" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8966FD" Ref="C149"  Part="1" 
+AR Path="/5D7CBA43/5D8966FD" Ref="C149"  Part="1" 
+F 0 "C149" H 4010 1570 50  0000 L CNN
+F 1 "100u" H 4010 1420 50  0000 L CNN
+F 2 "fdsp_capacitor:CP_Elec_10x10.5" H 4000 1500 60  0001 C CNN
+F 3 "" H 4000 1500 60  0000 C CNN
+F 4 "VF 100/63 K-G" H 4000 1500 60  0001 C CNN "Reichelt_Order_No"
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:LM284x-fdsp_regulator U?
+U 1 1 5D896703
+P 5400 1300
+AR Path="/5D385B34/5D2DBFC3/5D896703" Ref="U?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896703" Ref="U?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896703" Ref="U20"  Part="1" 
+AR Path="/5D7CBA43/5D896703" Ref="U20"  Part="1" 
+F 0 "U20" H 5650 1600 60  0000 C CNN
+F 1 "LM2842Y" H 5300 1600 60  0000 C CNN
+F 2 "fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm" H 5450 1300 60  0001 C CNN
+F 3 "" H 5450 1300 60  0000 C CNN
+	1    5400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C-fdsp_device C?
+U 1 1 5D896709
+P 6100 1150
+AR Path="/5D385B34/5D2DBFC3/5D896709" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896709" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896709" Ref="C154"  Part="1" 
+AR Path="/5D7CBA43/5D896709" Ref="C154"  Part="1" 
+F 0 "C154" H 6125 1250 50  0000 L CNN
+F 1 "150n" H 6125 1050 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 6138 1000 30  0001 C CNN
+F 3 "" H 6100 1150 60  0000 C CNN
+	1    6100 1150
+	0    1    -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:L_Small-fdsp_device L?
+U 1 1 5D89670F
+P 6700 1150
+AR Path="/5D385B34/5D2DBFC3/5D89670F" Ref="L?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89670F" Ref="L?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89670F" Ref="L4"  Part="1" 
+AR Path="/5D7CBA43/5D89670F" Ref="L4"  Part="1" 
+F 0 "L4" H 6700 1250 50  0000 C CNN
+F 1 "47u" H 6700 1100 50  0000 C CNN
+F 2 "fdsp_inductor:Choke_SMD_6.0x5.8" H 6700 1150 60  0001 C CNN
+F 3 "" H 6700 1150 60  0000 C CNN
+	1    6700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:D_Schottky_Small-fdsp_device D?
+U 1 1 5D896715
+P 6400 1700
+AR Path="/5D385B34/5D2DBFC3/5D896715" Ref="D?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896715" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896715" Ref="D18"  Part="1" 
+AR Path="/5D7CBA43/5D896715" Ref="D18"  Part="1" 
+F 0 "D18" H 6350 1780 50  0000 L CNN
+F 1 "B150" H 6300 1600 50  0000 L CNN
+F 2 "fdsp_diode:SMA" V 6400 1700 60  0001 C CNN
+F 3 "" V 6400 1700 60  0000 C CNN
+	1    6400 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R?
+U 1 1 5D89671B
+P 6700 1450
+AR Path="/5D385B34/5D2DBFC3/5D89671B" Ref="R?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89671B" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89671B" Ref="R175"  Part="1" 
+AR Path="/5D7CBA43/5D89671B" Ref="R175"  Part="1" 
+F 0 "R175" H 6730 1470 50  0000 L CNN
+F 1 "3.4k" H 6730 1410 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 6700 1450 60  0001 C CNN
+F 3 "" H 6700 1450 60  0000 C CNN
+	1    6700 1450
+	0    -1   1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R?
+U 1 1 5D896721
+P 5950 1700
+AR Path="/5D385B34/5D2DBFC3/5D896721" Ref="R?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896721" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896721" Ref="R173"  Part="1" 
+AR Path="/5D7CBA43/5D896721" Ref="R173"  Part="1" 
+F 0 "R173" H 5980 1720 50  0000 L CNN
+F 1 "1.02k" H 5980 1660 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 5950 1700 60  0001 C CNN
+F 3 "" H 5950 1700 60  0000 C CNN
+	1    5950 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 4300 2100 0    60   ~ 0
+X7R -> LowESR\n
+Text Notes 6900 2100 0    60   ~ 0
+X7R -> LowESR\n
+$Comp
+L freeDSP_1452-rescue:LM284x-fdsp_regulator U?
+U 1 1 5D896729
+P 5400 2900
+AR Path="/5D385B34/5D2DBFC3/5D896729" Ref="U?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896729" Ref="U?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896729" Ref="U21"  Part="1" 
+AR Path="/5D7CBA43/5D896729" Ref="U21"  Part="1" 
+F 0 "U21" H 5650 3200 60  0000 C CNN
+F 1 "LM2842Y" H 5300 3200 60  0000 C CNN
+F 2 "fdsp_housing:SOT23-6_1.7x3.0mm_Pitch0.95mm" H 5450 2900 60  0001 C CNN
+F 3 "" H 5450 2900 60  0000 C CNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C-fdsp_device C?
+U 1 1 5D89672F
+P 6100 2750
+AR Path="/5D385B34/5D2DBFC3/5D89672F" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89672F" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89672F" Ref="C155"  Part="1" 
+AR Path="/5D7CBA43/5D89672F" Ref="C155"  Part="1" 
+F 0 "C155" H 6125 2850 50  0000 L CNN
+F 1 "150n" H 6125 2650 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 6138 2600 30  0001 C CNN
+F 3 "" H 6100 2750 60  0000 C CNN
+	1    6100 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:L_Small-fdsp_device L?
+U 1 1 5D896735
+P 6700 2750
+AR Path="/5D385B34/5D2DBFC3/5D896735" Ref="L?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896735" Ref="L?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896735" Ref="L5"  Part="1" 
+AR Path="/5D7CBA43/5D896735" Ref="L5"  Part="1" 
+F 0 "L5" H 6700 2850 50  0000 C CNN
+F 1 "47u" H 6700 2700 50  0000 C CNN
+F 2 "fdsp_inductor:Choke_SMD_6.0x5.8" H 6700 2750 60  0001 C CNN
+F 3 "" H 6700 2750 60  0000 C CNN
+	1    6700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:D_Schottky_Small-fdsp_device D?
+U 1 1 5D89673B
+P 6400 3300
+AR Path="/5D385B34/5D2DBFC3/5D89673B" Ref="D?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89673B" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89673B" Ref="D19"  Part="1" 
+AR Path="/5D7CBA43/5D89673B" Ref="D19"  Part="1" 
+F 0 "D19" H 6350 3380 50  0000 L CNN
+F 1 "B150" H 6300 3200 50  0000 L CNN
+F 2 "fdsp_diode:SMA" V 6400 3300 60  0001 C CNN
+F 3 "" V 6400 3300 60  0000 C CNN
+	1    6400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R?
+U 1 1 5D896741
+P 6700 3050
+AR Path="/5D385B34/5D2DBFC3/5D896741" Ref="R?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896741" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896741" Ref="R176"  Part="1" 
+AR Path="/5D7CBA43/5D896741" Ref="R176"  Part="1" 
+F 0 "R176" H 6730 3070 50  0000 L CNN
+F 1 "5.62k" H 6730 3010 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 6700 3050 60  0001 C CNN
+F 3 "" H 6700 3050 60  0000 C CNN
+	1    6700 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R?
+U 1 1 5D896747
+P 5950 3300
+AR Path="/5D385B34/5D2DBFC3/5D896747" Ref="R?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896747" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896747" Ref="R174"  Part="1" 
+AR Path="/5D7CBA43/5D896747" Ref="R174"  Part="1" 
+F 0 "R174" H 5980 3320 50  0000 L CNN
+F 1 "1.02k" H 5980 3260 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 5950 3300 60  0001 C CNN
+F 3 "" H 5950 3300 60  0000 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+Text Notes 4150 3700 0    60   ~ 0
+X7R -> LowESR\n
+Text Notes 7500 3700 0    60   ~ 0
+X7R -> LowESR\n
+Text Notes 1250 4350 0    197  ~ 0
+See Datasheet of LM2842 for Layout recommendations!!!\n
+Text Notes 7300 3450 2    60   ~ 0
+replace with 8k2\nfor 6,9V output\n
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR?
+U 1 1 5D896751
+P 6400 3600
+AR Path="/5D385B34/5D2DBFC3/5D896751" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896751" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896751" Ref="#PWR0200"  Part="1" 
+AR Path="/5D7CBA43/5D896751" Ref="#PWR0200"  Part="1" 
+F 0 "#PWR0200" H 6400 3350 50  0001 C CNN
+F 1 "GND" H 6400 3450 50  0000 C CNN
+F 2 "" H 6400 3600 60  0000 C CNN
+F 3 "" H 6400 3600 60  0000 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:LD1117DT50TR-fdsp_regulator U?
+U 1 1 5D896757
+P 9100 2800
+AR Path="/5D385B34/5D2DBFC3/5D896757" Ref="U?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896757" Ref="U?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896757" Ref="U22"  Part="1" 
+AR Path="/5D7CBA43/5D896757" Ref="U22"  Part="1" 
+F 0 "U22" H 9100 3050 40  0000 C CNN
+F 1 "LD1117DT50TR" H 9100 3000 40  0000 C CNN
+F 2 "fdsp_housing:SOT-223" H 9100 2900 40  0001 C CNN
+F 3 "" H 9100 2800 60  0000 C CNN
+	1    9100 2800
+	1    0    0    -1  
+$EndComp
+Text Notes 9200 3350 0    60   ~ 0
+optional\n+5V-LDO
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D89675E
+P 4650 3100
+AR Path="/5D385B34/5D2DBFC3/5D89675E" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89675E" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89675E" Ref="C153"  Part="1" 
+AR Path="/5D7CBA43/5D89675E" Ref="C153"  Part="1" 
+F 0 "C153" H 4660 3170 50  0000 L CNN
+F 1 "100n" H 4660 3020 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 4650 3100 60  0001 C CNN
+F 3 "" H 4650 3100 60  0000 C CNN
+	1    4650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D896764
+P 4650 1500
+AR Path="/5D385B34/5D2DBFC3/5D896764" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896764" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896764" Ref="C152"  Part="1" 
+AR Path="/5D7CBA43/5D896764" Ref="C152"  Part="1" 
+F 0 "C152" H 4660 1570 50  0000 L CNN
+F 1 "100n" H 4660 1420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 4650 1500 60  0001 C CNN
+F 3 "" H 4650 1500 60  0000 C CNN
+	1    4650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:TVS-fdsp_device D?
+U 1 1 5D89676C
+P 2550 1500
+AR Path="/5D385B34/5D2DBFC3/5D89676C" Ref="D?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89676C" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89676C" Ref="D15"  Part="1" 
+AR Path="/5D7CBA43/5D89676C" Ref="D15"  Part="1" 
+F 0 "D15" H 2550 1650 50  0000 C CNN
+F 1 "SMAJ28A" H 2550 1350 50  0000 C CNN
+F 2 "fdsp_diode:SMA" H 2550 1500 50  0001 C CNN
+F 3 "" H 2550 1500 50  0000 C CNN
+F 4 "-" H 2550 1500 60  0001 C CNN "Mouser_Part_No"
+F 5 "SMAJ28A-E3/5AGICT-ND" H 2550 1500 60  0001 C CNN "Digikey_Paro_No"
+	1    2550 1500
+	0    -1   1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D896772
+P 8650 3050
+AR Path="/5D385B34/5D2DBFC3/5D896772" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896772" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896772" Ref="C162"  Part="1" 
+AR Path="/5D7CBA43/5D896772" Ref="C162"  Part="1" 
+F 0 "C162" H 8660 3120 50  0000 L CNN
+F 1 "100n" H 8660 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 8650 3050 60  0001 C CNN
+F 3 "" H 8650 3050 60  0000 C CNN
+	1    8650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR?
+U 1 1 5D896778
+P 6400 2000
+AR Path="/5D385B34/5D2DBFC3/5D896778" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896778" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896778" Ref="#PWR0201"  Part="1" 
+AR Path="/5D7CBA43/5D896778" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 6400 1750 50  0001 C CNN
+F 1 "GND" H 6400 1850 50  0000 C CNN
+F 2 "" H 6400 2000 60  0000 C CNN
+F 3 "" H 6400 2000 60  0000 C CNN
+	1    6400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:PWR_FLAG-fdsp_power #FLG?
+U 1 1 5D89677E
+P 7750 2700
+AR Path="/5D385B34/5D2DBFC3/5D89677E" Ref="#FLG?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89677E" Ref="#FLG?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89677E" Ref="#FLG0106"  Part="1" 
+AR Path="/5D7CBA43/5D89677E" Ref="#FLG0106"  Part="1" 
+F 0 "#FLG0106" H 7750 2795 50  0001 C CNN
+F 1 "PWR_FLAG" H 7750 2880 50  0000 C CNN
+F 2 "" H 7750 2700 60  0000 C CNN
+F 3 "" H 7750 2700 60  0000 C CNN
+	1    7750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:D_Schottky_Small-fdsp_device D?
+U 1 1 5D896784
+P 9100 2400
+AR Path="/5D385B34/5D2DBFC3/5D896784" Ref="D?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896784" Ref="D?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896784" Ref="D20"  Part="1" 
+AR Path="/5D7CBA43/5D896784" Ref="D20"  Part="1" 
+F 0 "D20" H 9050 2480 50  0000 L CNN
+F 1 "B150" H 9000 2300 50  0000 L CNN
+F 2 "fdsp_diode:SMA" V 9100 2400 60  0001 C CNN
+F 3 "" V 9100 2400 60  0000 C CNN
+	1    9100 2400
+	1    0    0    1   
+$EndComp
+Text Notes 1850 900  0    60   ~ 0
+Mouser\n530-0ZCJ0050AF2E \n0,145€
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D89678C
+P 3100 1500
+AR Path="/5D385B34/5D2DBFC3/5D89678C" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89678C" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89678C" Ref="C148"  Part="1" 
+AR Path="/5D7CBA43/5D89678C" Ref="C148"  Part="1" 
+F 0 "C148" H 3110 1570 50  0000 L CNN
+F 1 "10u" H 3110 1420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 3100 1500 60  0001 C CNN
+F 3 "" H 3100 1500 60  0000 C CNN
+	1    3100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D896792
+P 2850 1500
+AR Path="/5D385B34/5D2DBFC3/5D896792" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896792" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896792" Ref="C147"  Part="1" 
+AR Path="/5D7CBA43/5D896792" Ref="C147"  Part="1" 
+F 0 "C147" H 2860 1570 50  0000 L CNN
+F 1 "100n" H 2860 1420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 2850 1500 60  0001 C CNN
+F 3 "" H 2850 1500 60  0000 C CNN
+	1    2850 1500
+	1    0    0    -1  
+$EndComp
+Text Notes 8700 3750 0    60   ~ 0
+TODO: Use SOT-223
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D896799
+P 4400 1500
+AR Path="/5D385B34/5D2DBFC3/5D896799" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896799" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896799" Ref="C150"  Part="1" 
+AR Path="/5D7CBA43/5D896799" Ref="C150"  Part="1" 
+F 0 "C150" H 4410 1570 50  0000 L CNN
+F 1 "10u" H 4410 1420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 4400 1500 60  0001 C CNN
+F 3 "" H 4400 1500 60  0000 C CNN
+	1    4400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D89679F
+P 4400 3100
+AR Path="/5D385B34/5D2DBFC3/5D89679F" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89679F" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89679F" Ref="C151"  Part="1" 
+AR Path="/5D7CBA43/5D89679F" Ref="C151"  Part="1" 
+F 0 "C151" H 4410 3170 50  0000 L CNN
+F 1 "10u" H 4410 3020 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 4400 3100 60  0001 C CNN
+F 3 "" H 4400 3100 60  0000 C CNN
+	1    4400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967A5
+P 7150 1450
+AR Path="/5D385B34/5D2DBFC3/5D8967A5" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967A5" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967A5" Ref="C156"  Part="1" 
+AR Path="/5D7CBA43/5D8967A5" Ref="C156"  Part="1" 
+F 0 "C156" H 7160 1520 50  0000 L CNN
+F 1 "100n" H 7160 1370 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 7150 1450 60  0001 C CNN
+F 3 "" H 7150 1450 60  0000 C CNN
+	1    7150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967AB
+P 7400 1450
+AR Path="/5D385B34/5D2DBFC3/5D8967AB" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967AB" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967AB" Ref="C157"  Part="1" 
+AR Path="/5D7CBA43/5D8967AB" Ref="C157"  Part="1" 
+F 0 "C157" H 7410 1520 50  0000 L CNN
+F 1 "10u" H 7410 1370 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 7400 1450 60  0001 C CNN
+F 3 "" H 7400 1450 60  0000 C CNN
+	1    7400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967B1
+P 7650 1450
+AR Path="/5D385B34/5D2DBFC3/5D8967B1" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967B1" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967B1" Ref="C159"  Part="1" 
+AR Path="/5D7CBA43/5D8967B1" Ref="C159"  Part="1" 
+F 0 "C159" H 7660 1520 50  0000 L CNN
+F 1 "10u" H 7660 1370 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 7650 1450 60  0001 C CNN
+F 3 "" H 7650 1450 60  0000 C CNN
+	1    7650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967B7
+P 7450 3050
+AR Path="/5D385B34/5D2DBFC3/5D8967B7" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967B7" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967B7" Ref="C158"  Part="1" 
+AR Path="/5D7CBA43/5D8967B7" Ref="C158"  Part="1" 
+F 0 "C158" H 7460 3120 50  0000 L CNN
+F 1 "100n" H 7460 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 7450 3050 60  0001 C CNN
+F 3 "" H 7450 3050 60  0000 C CNN
+	1    7450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967BD
+P 7750 3050
+AR Path="/5D385B34/5D2DBFC3/5D8967BD" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967BD" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967BD" Ref="C160"  Part="1" 
+AR Path="/5D7CBA43/5D8967BD" Ref="C160"  Part="1" 
+F 0 "C160" H 7760 3120 50  0000 L CNN
+F 1 "10u" H 7760 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 7750 3050 60  0001 C CNN
+F 3 "" H 7750 3050 60  0000 C CNN
+	1    7750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967C3
+P 8000 3050
+AR Path="/5D385B34/5D2DBFC3/5D8967C3" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967C3" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967C3" Ref="C161"  Part="1" 
+AR Path="/5D7CBA43/5D8967C3" Ref="C161"  Part="1" 
+F 0 "C161" H 8010 3120 50  0000 L CNN
+F 1 "10u" H 8010 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 8000 3050 60  0001 C CNN
+F 3 "" H 8000 3050 60  0000 C CNN
+	1    8000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967C9
+P 9650 3050
+AR Path="/5D385B34/5D2DBFC3/5D8967C9" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967C9" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967C9" Ref="C163"  Part="1" 
+AR Path="/5D7CBA43/5D8967C9" Ref="C163"  Part="1" 
+F 0 "C163" H 9660 3120 50  0000 L CNN
+F 1 "100n" H 9660 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 9650 3050 60  0001 C CNN
+F 3 "" H 9650 3050 60  0000 C CNN
+	1    9650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C?
+U 1 1 5D8967CF
+P 9950 3050
+AR Path="/5D385B34/5D2DBFC3/5D8967CF" Ref="C?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967CF" Ref="C?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967CF" Ref="C164"  Part="1" 
+AR Path="/5D7CBA43/5D8967CF" Ref="C164"  Part="1" 
+F 0 "C164" H 9960 3120 50  0000 L CNN
+F 1 "10u" H 9960 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0805" H 9950 3050 60  0001 C CNN
+F 3 "" H 9950 3050 60  0000 C CNN
+	1    9950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:VIN-fdsp_power #PWR?
+U 1 1 5D8967D5
+P 1700 1050
+AR Path="/5D385B34/5D2DBFC3/5D8967D5" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967D5" Ref="#PWR?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967D5" Ref="#PWR0202"  Part="1" 
+AR Path="/5D7CBA43/5D8967D5" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 1700 900 50  0001 C CNN
+F 1 "VIN" H 1700 1190 50  0000 C CNN
+F 2 "" H 1700 1050 60  0000 C CNN
+F 3 "" H 1700 1050 60  0000 C CNN
+	1    1700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:TST-fdsp_device P?
+U 1 1 5D8967DB
+P 10300 2750
+AR Path="/5D385B34/5D2DBFC3/5D8967DB" Ref="P?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967DB" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967DB" Ref="P52"  Part="1" 
+AR Path="/5D7CBA43/5D8967DB" Ref="P52"  Part="1" 
+F 0 "P52" H 10300 3050 50  0000 C BNN
+F 1 "TST" H 10300 3000 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 10300 2750 50  0001 C CNN
+F 3 "" H 10300 2750 50  0000 C CNN
+	1    10300 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:TST-fdsp_device P?
+U 1 1 5D8967E1
+P 10300 2900
+AR Path="/5D385B34/5D2DBFC3/5D8967E1" Ref="P?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967E1" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967E1" Ref="P53"  Part="1" 
+AR Path="/5D7CBA43/5D8967E1" Ref="P53"  Part="1" 
+F 0 "P53" H 10300 3200 50  0000 C BNN
+F 1 "TST" H 10300 3150 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 10300 2900 50  0001 C CNN
+F 3 "" H 10300 2900 50  0000 C CNN
+	1    10300 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:TST-fdsp_device P?
+U 1 1 5D8967E7
+P 8050 1150
+AR Path="/5D385B34/5D2DBFC3/5D8967E7" Ref="P?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967E7" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967E7" Ref="P48"  Part="1" 
+AR Path="/5D7CBA43/5D8967E7" Ref="P48"  Part="1" 
+F 0 "P48" H 8050 1450 50  0000 C BNN
+F 1 "TST" H 8050 1400 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 8050 1150 50  0001 C CNN
+F 3 "" H 8050 1150 50  0000 C CNN
+	1    8050 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:TST-fdsp_device P?
+U 1 1 5D8967ED
+P 8050 1300
+AR Path="/5D385B34/5D2DBFC3/5D8967ED" Ref="P?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967ED" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967ED" Ref="P49"  Part="1" 
+AR Path="/5D7CBA43/5D8967ED" Ref="P49"  Part="1" 
+F 0 "P49" H 8050 1600 50  0000 C BNN
+F 1 "TST" H 8050 1550 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 8050 1300 50  0001 C CNN
+F 3 "" H 8050 1300 50  0000 C CNN
+	1    8050 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:Jumper_NO_Small-fdsp_device R?
+U 1 1 5D8967F3
+P 9100 2150
+AR Path="/5D385B34/5D2DBFC3/5D8967F3" Ref="R?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D8967F3" Ref="R?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D8967F3" Ref="R177"  Part="1" 
+AR Path="/5D7CBA43/5D8967F3" Ref="R177"  Part="1" 
+F 0 "R177" H 9100 2230 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9110 2090 50  0001 C CNN
+F 2 "fdsp_resistor:R_0603_Solderjumper_Open" H 9100 2150 50  0001 C CNN
+F 3 "" H 9100 2150 50  0000 C CNN
+	1    9100 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1150 2000 1150
+Wire Wire Line
+	2500 1150 2550 1150
+Connection ~ 4400 1150
+Wire Wire Line
+	4850 1300 4900 1300
+Connection ~ 4850 1150
+Wire Wire Line
+	4900 1450 4850 1450
+Wire Wire Line
+	4850 1450 4850 1950
+Connection ~ 4850 1950
+Wire Wire Line
+	5900 1150 5950 1150
+Wire Wire Line
+	6250 1150 6400 1150
+Wire Wire Line
+	5900 1300 6400 1300
+Connection ~ 6400 1150
+Wire Wire Line
+	6400 1800 6400 1950
+Wire Wire Line
+	6400 1150 6400 1300
+Connection ~ 6400 1300
+Wire Wire Line
+	5950 1950 5950 1800
+Connection ~ 5950 1950
+Wire Wire Line
+	5900 1450 5950 1450
+Wire Wire Line
+	5950 1450 5950 1600
+Connection ~ 5950 1450
+Wire Wire Line
+	6800 1450 7000 1450
+Wire Wire Line
+	7000 1450 7000 1150
+Wire Wire Line
+	6950 1150 7000 1150
+Wire Wire Line
+	7150 1150 7150 1350
+Connection ~ 7000 1150
+Wire Wire Line
+	7400 1100 7400 1150
+Connection ~ 7150 1150
+Wire Wire Line
+	7150 1950 7150 1550
+Connection ~ 6400 1950
+Wire Wire Line
+	7400 1950 7400 1550
+Connection ~ 7150 1950
+Connection ~ 7400 1150
+Wire Wire Line
+	8000 1950 8000 1300
+Connection ~ 7400 1950
+Wire Wire Line
+	4400 2750 4400 3000
+Wire Wire Line
+	4400 3200 4400 3550
+Connection ~ 4400 2750
+Wire Wire Line
+	4900 2900 4850 2900
+Wire Wire Line
+	4850 2900 4850 2750
+Connection ~ 4850 2750
+Wire Wire Line
+	4900 3050 4850 3050
+Wire Wire Line
+	4850 3050 4850 3550
+Connection ~ 4850 3550
+Wire Wire Line
+	5900 2750 5950 2750
+Wire Wire Line
+	6250 2750 6400 2750
+Wire Wire Line
+	5900 2900 6400 2900
+Connection ~ 6400 2750
+Wire Wire Line
+	6400 3400 6400 3550
+Wire Wire Line
+	6400 2750 6400 2900
+Connection ~ 6400 2900
+Wire Wire Line
+	5950 3550 5950 3400
+Connection ~ 5950 3550
+Wire Wire Line
+	5900 3050 5950 3050
+Wire Wire Line
+	5950 3050 5950 3200
+Connection ~ 5950 3050
+Wire Wire Line
+	6800 3050 7000 3050
+Wire Wire Line
+	7000 3050 7000 2750
+Wire Wire Line
+	6950 2750 7000 2750
+Connection ~ 7000 2750
+Wire Wire Line
+	8000 2150 8000 2750
+Connection ~ 7450 2750
+Wire Wire Line
+	7450 3550 7450 3150
+Connection ~ 6400 3550
+Wire Wire Line
+	7750 3550 7750 3150
+Connection ~ 7450 3550
+Connection ~ 8000 2750
+Wire Wire Line
+	10250 3550 10250 2900
+Wire Wire Line
+	4250 2750 4400 2750
+Wire Wire Line
+	10250 2900 10300 2900
+Wire Wire Line
+	8000 1300 8050 1300
+Wire Wire Line
+	4400 3550 4650 3550
+Wire Wire Line
+	9500 2750 9550 2750
+Wire Wire Line
+	9800 2750 9800 2650
+Connection ~ 9800 2750
+Wire Wire Line
+	8000 2150 9000 2150
+Wire Wire Line
+	9650 2150 9650 2750
+Wire Wire Line
+	9650 2150 9200 2150
+Connection ~ 9650 2750
+Wire Wire Line
+	9650 3150 9650 3550
+Wire Wire Line
+	9100 3550 9100 3050
+Connection ~ 7750 3550
+Connection ~ 9100 3550
+Connection ~ 9650 3550
+Wire Notes Line
+	8550 2250 8550 3450
+Wire Notes Line
+	8550 3450 10150 3450
+Wire Notes Line
+	10150 3450 10150 2900
+Wire Notes Line
+	10150 2900 9600 2900
+Wire Notes Line
+	9600 2900 9600 2250
+Wire Notes Line
+	9600 2250 8550 2250
+Wire Wire Line
+	4650 3200 4650 3550
+Connection ~ 4650 3550
+Wire Wire Line
+	4650 3000 4650 2750
+Connection ~ 4650 2750
+Wire Wire Line
+	4650 1950 4650 1600
+Connection ~ 4650 1950
+Wire Wire Line
+	4650 1150 4650 1400
+Connection ~ 4650 1150
+Wire Wire Line
+	2550 1200 2550 1150
+Connection ~ 2550 1150
+Wire Wire Line
+	8650 2400 8650 2750
+Connection ~ 8650 2750
+Wire Wire Line
+	8650 3150 8650 3550
+Connection ~ 8650 3550
+Wire Wire Line
+	4850 1150 4850 1300
+Wire Wire Line
+	2550 1950 2550 1800
+Wire Wire Line
+	4400 1100 4400 1150
+Wire Wire Line
+	9550 2750 9550 2400
+Wire Wire Line
+	9550 2400 9200 2400
+Connection ~ 9550 2750
+Wire Wire Line
+	9000 2400 8650 2400
+Wire Wire Line
+	3100 1150 3100 1400
+Wire Wire Line
+	3100 1600 3100 1950
+Connection ~ 3100 1950
+Wire Wire Line
+	2850 1950 2850 1600
+Connection ~ 2850 1950
+Connection ~ 3100 1150
+Wire Wire Line
+	4400 1600 4400 1950
+Connection ~ 4400 1950
+Wire Wire Line
+	3950 1150 4000 1150
+Wire Wire Line
+	4000 1600 4000 1950
+Connection ~ 4000 1950
+Wire Wire Line
+	4250 1150 4250 2750
+Connection ~ 4250 1150
+Wire Wire Line
+	7650 1950 7650 1550
+Connection ~ 7650 1950
+Wire Wire Line
+	7650 1350 7650 1150
+Connection ~ 7650 1150
+Wire Wire Line
+	8000 3150 8000 3550
+Connection ~ 8000 3550
+Wire Wire Line
+	7750 2700 7750 2750
+Connection ~ 7750 2750
+Wire Wire Line
+	7450 2950 7450 2750
+Wire Wire Line
+	9950 2950 9950 2750
+Connection ~ 9950 2750
+Wire Wire Line
+	9950 3150 9950 3550
+Connection ~ 9950 3550
+Wire Wire Line
+	4000 1400 4000 1150
+Connection ~ 4000 1150
+Wire Wire Line
+	1700 1150 1700 1050
+Wire Wire Line
+	2850 1400 2850 1150
+Connection ~ 2850 1150
+$Comp
+L freeDSP_1452-rescue:TST-fdsp_device P?
+U 1 1 5D89688C
+P 8300 2700
+AR Path="/5D385B34/5D2DBFC3/5D89688C" Ref="P?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D89688C" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D89688C" Ref="P50"  Part="1" 
+AR Path="/5D7CBA43/5D89688C" Ref="P50"  Part="1" 
+F 0 "P50" H 8300 3000 50  0000 C BNN
+F 1 "TST" H 8300 2950 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 8300 2700 50  0001 C CNN
+F 3 "" H 8300 2700 50  0000 C CNN
+	1    8300 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2750 8300 2700
+Connection ~ 8300 2750
+$Comp
+L freeDSP_1452-rescue:TST-fdsp_device P?
+U 1 1 5D896894
+P 8300 3600
+AR Path="/5D385B34/5D2DBFC3/5D896894" Ref="P?"  Part="1" 
+AR Path="/5D2C7382/5D8A69FC/5D896894" Ref="P?"  Part="1" 
+AR Path="/5D2C73C7/5D7CBA43/5D896894" Ref="P51"  Part="1" 
+AR Path="/5D7CBA43/5D896894" Ref="P51"  Part="1" 
+F 0 "P51" H 8300 3900 50  0000 C BNN
+F 1 "TST" H 8300 3850 50  0000 C CNN
+F 2 "fdsp_misc:Measurement_Point_Round-SMD-Pad_Small" H 8300 3600 50  0001 C CNN
+F 3 "" H 8300 3600 50  0000 C CNN
+	1    8300 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8300 3600 8300 3550
+Connection ~ 8300 3550
+Wire Wire Line
+	4400 1150 4400 1400
+Wire Wire Line
+	4400 1150 4650 1150
+Wire Wire Line
+	4850 1150 4900 1150
+Wire Wire Line
+	4850 1950 5950 1950
+Wire Wire Line
+	6400 1150 6450 1150
+Wire Wire Line
+	6400 1300 6400 1600
+Wire Wire Line
+	5950 1950 6400 1950
+Wire Wire Line
+	5950 1450 6600 1450
+Wire Wire Line
+	7000 1150 7150 1150
+Wire Wire Line
+	7150 1150 7400 1150
+Wire Wire Line
+	6400 1950 6400 2000
+Wire Wire Line
+	6400 1950 7150 1950
+Wire Wire Line
+	7150 1950 7400 1950
+Wire Wire Line
+	7400 1150 7400 1350
+Wire Wire Line
+	7400 1150 7650 1150
+Wire Wire Line
+	7400 1950 7650 1950
+Wire Wire Line
+	4400 2750 4650 2750
+Wire Wire Line
+	4850 2750 4900 2750
+Wire Wire Line
+	4850 3550 5950 3550
+Wire Wire Line
+	6400 2750 6450 2750
+Wire Wire Line
+	6400 2900 6400 3200
+Wire Wire Line
+	5950 3550 6400 3550
+Wire Wire Line
+	5950 3050 6600 3050
+Wire Wire Line
+	7000 2750 7450 2750
+Wire Wire Line
+	7450 2750 7750 2750
+Wire Wire Line
+	6400 3550 6400 3600
+Wire Wire Line
+	6400 3550 7450 3550
+Wire Wire Line
+	7450 3550 7750 3550
+Wire Wire Line
+	8000 2750 8000 2950
+Wire Wire Line
+	8000 2750 8300 2750
+Wire Wire Line
+	9800 2750 9950 2750
+Wire Wire Line
+	9650 2750 9800 2750
+Wire Wire Line
+	9650 2750 9650 2950
+Wire Wire Line
+	7750 3550 8000 3550
+Wire Wire Line
+	9100 3550 9650 3550
+Wire Wire Line
+	9650 3550 9950 3550
+Wire Wire Line
+	4650 3550 4850 3550
+Wire Wire Line
+	4650 2750 4850 2750
+Wire Wire Line
+	4650 1950 4850 1950
+Wire Wire Line
+	4650 1150 4850 1150
+Wire Wire Line
+	2550 1150 2850 1150
+Wire Wire Line
+	8650 2750 8650 2950
+Wire Wire Line
+	8650 2750 8700 2750
+Wire Wire Line
+	8650 3550 9100 3550
+Wire Wire Line
+	2550 1950 2850 1950
+Wire Wire Line
+	9550 2750 9650 2750
+Wire Wire Line
+	3100 1950 4000 1950
+Wire Wire Line
+	2850 1950 3100 1950
+Wire Wire Line
+	3100 1150 3250 1150
+Wire Wire Line
+	4400 1950 4650 1950
+Wire Wire Line
+	4000 1950 4400 1950
+Wire Wire Line
+	4250 1150 4400 1150
+Wire Wire Line
+	7650 1950 8000 1950
+Wire Wire Line
+	7650 1150 8050 1150
+Wire Wire Line
+	8000 3550 8300 3550
+Wire Wire Line
+	7750 2750 7750 2950
+Wire Wire Line
+	7750 2750 8000 2750
+Wire Wire Line
+	9950 2750 10300 2750
+Wire Wire Line
+	9950 3550 10250 3550
+Wire Wire Line
+	4000 1150 4250 1150
+Wire Wire Line
+	1700 1150 1750 1150
+Wire Wire Line
+	2850 1150 3100 1150
+Wire Wire Line
+	8300 2750 8650 2750
+Wire Wire Line
+	8300 3550 8650 3550
+Text Notes 6350 850  0    60   ~ 0
+TODO: Output current still correct??
+Text Notes 2100 2250 0    60   ~ 0
+SMAJ28A-E3/5AGICT-ND\n0,34€
+$EndSCHEMATC

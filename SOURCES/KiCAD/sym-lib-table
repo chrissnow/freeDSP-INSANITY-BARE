@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name freeDSP_1452-rescue)(type Legacy)(uri ${KIPRJMOD}/freeDSP_1452-rescue.lib)(options "")(descr ""))
+  (lib (name DSP_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/DSP_Board-rescue.lib)(options "")(descr ""))
+)

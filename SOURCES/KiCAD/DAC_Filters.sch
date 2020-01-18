@@ -1,0 +1,1697 @@
+EESchema Schematic File Version 4
+LIBS:freeDSP_1452-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 16
+Title ""
+Date "2017-10-22"
+Rev "0.3"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "www.freedsp.cc"
+$EndDescr
+Text GLabel 3200 1300 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR089
+U 1 1 5577901F
+P 3650 950
+F 0 "#PWR089" H 3650 800 50  0001 C CNN
+F 1 "+5V" H 3650 1090 50  0000 C CNN
+F 2 "" H 3650 950 60  0000 C CNN
+F 3 "" H 3650 950 60  0000 C CNN
+	1    3650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR090
+U 1 1 55779025
+P 3650 1850
+F 0 "#PWR090" H 3650 1600 50  0001 C CNN
+F 1 "GND" H 3650 1700 50  0000 C CNN
+F 2 "" H 3650 1850 60  0000 C CNN
+F 3 "" H 3650 1850 60  0000 C CNN
+	1    3650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R86
+U 1 1 5577902B
+P 4450 1400
+F 0 "R86" H 4480 1420 50  0000 L CNN
+F 1 "47" H 4480 1360 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 4450 1400 60  0001 C CNN
+F 3 "" H 4450 1400 60  0000 C CNN
+	1    4450 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R90
+U 1 1 55779039
+P 5000 1550
+F 0 "R90" H 5030 1570 50  0000 L CNN
+F 1 "10k" H 5030 1510 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 5000 1550 60  0001 C CNN
+F 3 "" H 5000 1550 60  0000 C CNN
+	1    5000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR097
+U 1 1 55779040
+P 5000 1700
+F 0 "#PWR097" H 5000 1450 50  0001 C CNN
+F 1 "GND" H 5000 1550 50  0000 C CNN
+F 2 "" H 5000 1700 60  0000 C CNN
+F 3 "" H 5000 1700 60  0000 C CNN
+	1    5000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R82
+U 1 1 55779046
+P 2750 1500
+F 0 "R82" H 2780 1520 50  0000 L CNN
+F 1 "430" H 2780 1460 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2750 1500 60  0001 C CNN
+F 3 "" H 2750 1500 60  0000 C CNN
+	1    2750 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R78
+U 1 1 5577904D
+P 2600 1100
+F 0 "R78" H 2630 1120 50  0000 L CNN
+F 1 "5.9k" H 2630 1060 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2600 1100 60  0001 C CNN
+F 3 "" H 2600 1100 60  0000 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C58
+U 1 1 55779054
+P 2900 1100
+F 0 "C58" H 2910 1170 50  0000 L CNN
+F 1 "470p" H 2910 1020 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2900 1100 60  0001 C CNN
+F 3 "" H 2900 1100 60  0000 C CNN
+	1    2900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C52
+U 1 1 5577905B
+P 2600 1650
+F 0 "C52" H 2610 1720 50  0000 L CNN
+F 1 "4700p" H 2610 1570 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2600 1650 60  0001 C CNN
+F 3 "" H 2600 1650 60  0000 C CNN
+	1    2600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR083
+U 1 1 55779062
+P 2600 1800
+F 0 "#PWR083" H 2600 1550 50  0001 C CNN
+F 1 "GND" H 2600 1650 50  0000 C CNN
+F 2 "" H 2600 1800 60  0000 C CNN
+F 3 "" H 2600 1800 60  0000 C CNN
+	1    2600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R74
+U 1 1 55779068
+P 2450 1500
+F 0 "R74" H 2480 1520 50  0000 L CNN
+F 1 "6.2k" H 2480 1460 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2450 1500 60  0001 C CNN
+F 3 "" H 2450 1500 60  0000 C CNN
+	1    2450 1500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3200 2700 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR091
+U 1 1 55779070
+P 3650 2350
+F 0 "#PWR091" H 3650 2200 50  0001 C CNN
+F 1 "+5V" H 3650 2490 50  0000 C CNN
+F 2 "" H 3650 2350 60  0000 C CNN
+F 3 "" H 3650 2350 60  0000 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR092
+U 1 1 55779076
+P 3650 3250
+F 0 "#PWR092" H 3650 3000 50  0001 C CNN
+F 1 "GND" H 3650 3100 50  0000 C CNN
+F 2 "" H 3650 3250 60  0000 C CNN
+F 3 "" H 3650 3250 60  0000 C CNN
+	1    3650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R87
+U 1 1 5577907C
+P 4450 2800
+F 0 "R87" H 4480 2820 50  0000 L CNN
+F 1 "47" H 4480 2760 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 4450 2800 60  0001 C CNN
+F 3 "" H 4450 2800 60  0000 C CNN
+	1    4450 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R91
+U 1 1 5577908A
+P 5000 2950
+F 0 "R91" H 5030 2970 50  0000 L CNN
+F 1 "10k" H 5030 2910 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 5000 2950 60  0001 C CNN
+F 3 "" H 5000 2950 60  0000 C CNN
+	1    5000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR098
+U 1 1 55779091
+P 5000 3100
+F 0 "#PWR098" H 5000 2850 50  0001 C CNN
+F 1 "GND" H 5000 2950 50  0000 C CNN
+F 2 "" H 5000 3100 60  0000 C CNN
+F 3 "" H 5000 3100 60  0000 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R83
+U 1 1 55779097
+P 2750 2900
+F 0 "R83" H 2780 2920 50  0000 L CNN
+F 1 "430" H 2780 2860 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2750 2900 60  0001 C CNN
+F 3 "" H 2750 2900 60  0000 C CNN
+	1    2750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R79
+U 1 1 5577909E
+P 2600 2500
+F 0 "R79" H 2630 2520 50  0000 L CNN
+F 1 "5.9k" H 2630 2460 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2600 2500 60  0001 C CNN
+F 3 "" H 2600 2500 60  0000 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C59
+U 1 1 557790A5
+P 2900 2500
+F 0 "C59" H 2910 2570 50  0000 L CNN
+F 1 "470p" H 2910 2420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2900 2500 60  0001 C CNN
+F 3 "" H 2900 2500 60  0000 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C53
+U 1 1 557790AC
+P 2600 3050
+F 0 "C53" H 2610 3120 50  0000 L CNN
+F 1 "4700p" H 2610 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2600 3050 60  0001 C CNN
+F 3 "" H 2600 3050 60  0000 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR084
+U 1 1 557790B3
+P 2600 3200
+F 0 "#PWR084" H 2600 2950 50  0001 C CNN
+F 1 "GND" H 2600 3050 50  0000 C CNN
+F 2 "" H 2600 3200 60  0000 C CNN
+F 3 "" H 2600 3200 60  0000 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R75
+U 1 1 557790B9
+P 2450 2900
+F 0 "R75" H 2480 2920 50  0000 L CNN
+F 1 "6.2k" H 2480 2860 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2450 2900 60  0001 C CNN
+F 3 "" H 2450 2900 60  0000 C CNN
+	1    2450 2900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3200 4150 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR093
+U 1 1 557790CF
+P 3650 3800
+F 0 "#PWR093" H 3650 3650 50  0001 C CNN
+F 1 "+5V" H 3650 3940 50  0000 C CNN
+F 2 "" H 3650 3800 60  0000 C CNN
+F 3 "" H 3650 3800 60  0000 C CNN
+	1    3650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR094
+U 1 1 557790D5
+P 3650 4700
+F 0 "#PWR094" H 3650 4450 50  0001 C CNN
+F 1 "GND" H 3650 4550 50  0000 C CNN
+F 2 "" H 3650 4700 60  0000 C CNN
+F 3 "" H 3650 4700 60  0000 C CNN
+	1    3650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R88
+U 1 1 557790DB
+P 4450 4250
+F 0 "R88" H 4480 4270 50  0000 L CNN
+F 1 "47" H 4480 4210 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 4450 4250 60  0001 C CNN
+F 3 "" H 4450 4250 60  0000 C CNN
+	1    4450 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R92
+U 1 1 557790E9
+P 5000 4400
+F 0 "R92" H 5030 4420 50  0000 L CNN
+F 1 "10k" H 5030 4360 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 5000 4400 60  0001 C CNN
+F 3 "" H 5000 4400 60  0000 C CNN
+	1    5000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR099
+U 1 1 557790F0
+P 5000 4550
+F 0 "#PWR099" H 5000 4300 50  0001 C CNN
+F 1 "GND" H 5000 4400 50  0000 C CNN
+F 2 "" H 5000 4550 60  0000 C CNN
+F 3 "" H 5000 4550 60  0000 C CNN
+	1    5000 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R84
+U 1 1 557790F6
+P 2750 4350
+F 0 "R84" H 2780 4370 50  0000 L CNN
+F 1 "430" H 2780 4310 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2750 4350 60  0001 C CNN
+F 3 "" H 2750 4350 60  0000 C CNN
+	1    2750 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R80
+U 1 1 557790FD
+P 2600 3950
+F 0 "R80" H 2630 3970 50  0000 L CNN
+F 1 "5.9k" H 2630 3910 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2600 3950 60  0001 C CNN
+F 3 "" H 2600 3950 60  0000 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C60
+U 1 1 55779104
+P 2900 3950
+F 0 "C60" H 2910 4020 50  0000 L CNN
+F 1 "470p" H 2910 3870 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2900 3950 60  0001 C CNN
+F 3 "" H 2900 3950 60  0000 C CNN
+	1    2900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C54
+U 1 1 5577910B
+P 2600 4500
+F 0 "C54" H 2610 4570 50  0000 L CNN
+F 1 "4700p" H 2610 4420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2600 4500 60  0001 C CNN
+F 3 "" H 2600 4500 60  0000 C CNN
+	1    2600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR085
+U 1 1 55779112
+P 2600 4650
+F 0 "#PWR085" H 2600 4400 50  0001 C CNN
+F 1 "GND" H 2600 4500 50  0000 C CNN
+F 2 "" H 2600 4650 60  0000 C CNN
+F 3 "" H 2600 4650 60  0000 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R76
+U 1 1 55779118
+P 2450 4350
+F 0 "R76" H 2480 4370 50  0000 L CNN
+F 1 "6.2k" H 2480 4310 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2450 4350 60  0001 C CNN
+F 3 "" H 2450 4350 60  0000 C CNN
+	1    2450 4350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3200 5550 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR095
+U 1 1 55779120
+P 3650 5200
+F 0 "#PWR095" H 3650 5050 50  0001 C CNN
+F 1 "+5V" H 3650 5340 50  0000 C CNN
+F 2 "" H 3650 5200 60  0000 C CNN
+F 3 "" H 3650 5200 60  0000 C CNN
+	1    3650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR096
+U 1 1 55779126
+P 3650 6100
+F 0 "#PWR096" H 3650 5850 50  0001 C CNN
+F 1 "GND" H 3650 5950 50  0000 C CNN
+F 2 "" H 3650 6100 60  0000 C CNN
+F 3 "" H 3650 6100 60  0000 C CNN
+	1    3650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R89
+U 1 1 5577912C
+P 4450 5650
+F 0 "R89" H 4480 5670 50  0000 L CNN
+F 1 "47" H 4480 5610 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 4450 5650 60  0001 C CNN
+F 3 "" H 4450 5650 60  0000 C CNN
+	1    4450 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C65
+U 1 1 55779133
+P 4750 5650
+F 0 "C65" H 4760 5720 50  0000 L CNN
+F 1 "10u" H 4760 5570 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 4750 5650 60  0001 C CNN
+F 3 "" H 4750 5650 60  0000 C CNN
+	1    4750 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R93
+U 1 1 5577913A
+P 5000 5800
+F 0 "R93" H 5030 5820 50  0000 L CNN
+F 1 "10k" H 5030 5760 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 5000 5800 60  0001 C CNN
+F 3 "" H 5000 5800 60  0000 C CNN
+	1    5000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0100
+U 1 1 55779141
+P 5000 5950
+F 0 "#PWR0100" H 5000 5700 50  0001 C CNN
+F 1 "GND" H 5000 5800 50  0000 C CNN
+F 2 "" H 5000 5950 60  0000 C CNN
+F 3 "" H 5000 5950 60  0000 C CNN
+	1    5000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R85
+U 1 1 55779147
+P 2750 5750
+F 0 "R85" H 2780 5770 50  0000 L CNN
+F 1 "430" H 2780 5710 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2750 5750 60  0001 C CNN
+F 3 "" H 2750 5750 60  0000 C CNN
+	1    2750 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R81
+U 1 1 5577914E
+P 2600 5350
+F 0 "R81" H 2630 5370 50  0000 L CNN
+F 1 "5.9k" H 2630 5310 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2600 5350 60  0001 C CNN
+F 3 "" H 2600 5350 60  0000 C CNN
+	1    2600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C61
+U 1 1 55779155
+P 2900 5350
+F 0 "C61" H 2910 5420 50  0000 L CNN
+F 1 "470p" H 2910 5270 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2900 5350 60  0001 C CNN
+F 3 "" H 2900 5350 60  0000 C CNN
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C55
+U 1 1 5577915C
+P 2600 5900
+F 0 "C55" H 2610 5970 50  0000 L CNN
+F 1 "4700p" H 2610 5820 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 2600 5900 60  0001 C CNN
+F 3 "" H 2600 5900 60  0000 C CNN
+	1    2600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR086
+U 1 1 55779163
+P 2600 6050
+F 0 "#PWR086" H 2600 5800 50  0001 C CNN
+F 1 "GND" H 2600 5900 50  0000 C CNN
+F 2 "" H 2600 6050 60  0000 C CNN
+F 3 "" H 2600 6050 60  0000 C CNN
+	1    2600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R77
+U 1 1 55779169
+P 2450 5750
+F 0 "R77" H 2480 5770 50  0000 L CNN
+F 1 "6.2k" H 2480 5710 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 2450 5750 60  0001 C CNN
+F 3 "" H 2450 5750 60  0000 C CNN
+	1    2450 5750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5200 1400 2    60   Output ~ 0
+DAC1_OUT
+Text GLabel 8150 1300 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR0105
+U 1 1 55779A30
+P 8600 950
+F 0 "#PWR0105" H 8600 800 50  0001 C CNN
+F 1 "+5V" H 8600 1090 50  0000 C CNN
+F 2 "" H 8600 950 60  0000 C CNN
+F 3 "" H 8600 950 60  0000 C CNN
+	1    8600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0106
+U 1 1 55779A36
+P 8600 1850
+F 0 "#PWR0106" H 8600 1600 50  0001 C CNN
+F 1 "GND" H 8600 1700 50  0000 C CNN
+F 2 "" H 8600 1850 60  0000 C CNN
+F 3 "" H 8600 1850 60  0000 C CNN
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R106
+U 1 1 55779A3C
+P 9400 1400
+F 0 "R106" H 9430 1420 50  0000 L CNN
+F 1 "47" H 9430 1360 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9400 1400 60  0001 C CNN
+F 3 "" H 9400 1400 60  0000 C CNN
+	1    9400 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R110
+U 1 1 55779A4A
+P 9950 1550
+F 0 "R110" H 9980 1570 50  0000 L CNN
+F 1 "10k" H 9980 1510 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9950 1550 60  0001 C CNN
+F 3 "" H 9950 1550 60  0000 C CNN
+	1    9950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0113
+U 1 1 55779A51
+P 9950 1700
+F 0 "#PWR0113" H 9950 1450 50  0001 C CNN
+F 1 "GND" H 9950 1550 50  0000 C CNN
+F 2 "" H 9950 1700 60  0000 C CNN
+F 3 "" H 9950 1700 60  0000 C CNN
+	1    9950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R102
+U 1 1 55779A57
+P 7700 1500
+F 0 "R102" H 7730 1520 50  0000 L CNN
+F 1 "430" H 7730 1460 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7700 1500 60  0001 C CNN
+F 3 "" H 7700 1500 60  0000 C CNN
+	1    7700 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R98
+U 1 1 55779A5E
+P 7550 1100
+F 0 "R98" H 7580 1120 50  0000 L CNN
+F 1 "5.9k" H 7580 1060 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7550 1100 60  0001 C CNN
+F 3 "" H 7550 1100 60  0000 C CNN
+	1    7550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C70
+U 1 1 55779A65
+P 7850 1100
+F 0 "C70" H 7860 1170 50  0000 L CNN
+F 1 "470p" H 7860 1020 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7850 1100 60  0001 C CNN
+F 3 "" H 7850 1100 60  0000 C CNN
+	1    7850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C66
+U 1 1 55779A6C
+P 7550 1650
+F 0 "C66" H 7560 1720 50  0000 L CNN
+F 1 "4700p" H 7560 1570 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7550 1650 60  0001 C CNN
+F 3 "" H 7550 1650 60  0000 C CNN
+	1    7550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0101
+U 1 1 55779A73
+P 7550 1800
+F 0 "#PWR0101" H 7550 1550 50  0001 C CNN
+F 1 "GND" H 7550 1650 50  0000 C CNN
+F 2 "" H 7550 1800 60  0000 C CNN
+F 3 "" H 7550 1800 60  0000 C CNN
+	1    7550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R94
+U 1 1 55779A79
+P 7400 1500
+F 0 "R94" H 7430 1520 50  0000 L CNN
+F 1 "6.2k" H 7430 1460 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7400 1500 60  0001 C CNN
+F 3 "" H 7400 1500 60  0000 C CNN
+	1    7400 1500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8150 2700 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR0107
+U 1 1 55779A81
+P 8600 2350
+F 0 "#PWR0107" H 8600 2200 50  0001 C CNN
+F 1 "+5V" H 8600 2490 50  0000 C CNN
+F 2 "" H 8600 2350 60  0000 C CNN
+F 3 "" H 8600 2350 60  0000 C CNN
+	1    8600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0108
+U 1 1 55779A87
+P 8600 3250
+F 0 "#PWR0108" H 8600 3000 50  0001 C CNN
+F 1 "GND" H 8600 3100 50  0000 C CNN
+F 2 "" H 8600 3250 60  0000 C CNN
+F 3 "" H 8600 3250 60  0000 C CNN
+	1    8600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R107
+U 1 1 55779A8D
+P 9400 2800
+F 0 "R107" H 9430 2820 50  0000 L CNN
+F 1 "47" H 9430 2760 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9400 2800 60  0001 C CNN
+F 3 "" H 9400 2800 60  0000 C CNN
+	1    9400 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R111
+U 1 1 55779A9B
+P 9950 2950
+F 0 "R111" H 9980 2970 50  0000 L CNN
+F 1 "10k" H 9980 2910 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9950 2950 60  0001 C CNN
+F 3 "" H 9950 2950 60  0000 C CNN
+	1    9950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0114
+U 1 1 55779AA2
+P 9950 3100
+F 0 "#PWR0114" H 9950 2850 50  0001 C CNN
+F 1 "GND" H 9950 2950 50  0000 C CNN
+F 2 "" H 9950 3100 60  0000 C CNN
+F 3 "" H 9950 3100 60  0000 C CNN
+	1    9950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R103
+U 1 1 55779AA8
+P 7700 2900
+F 0 "R103" H 7730 2920 50  0000 L CNN
+F 1 "430" H 7730 2860 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7700 2900 60  0001 C CNN
+F 3 "" H 7700 2900 60  0000 C CNN
+	1    7700 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R99
+U 1 1 55779AAF
+P 7550 2500
+F 0 "R99" H 7580 2520 50  0000 L CNN
+F 1 "5.9k" H 7580 2460 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7550 2500 60  0001 C CNN
+F 3 "" H 7550 2500 60  0000 C CNN
+	1    7550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C71
+U 1 1 55779AB6
+P 7850 2500
+F 0 "C71" H 7860 2570 50  0000 L CNN
+F 1 "470p" H 7860 2420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7850 2500 60  0001 C CNN
+F 3 "" H 7850 2500 60  0000 C CNN
+	1    7850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C67
+U 1 1 55779ABD
+P 7550 3050
+F 0 "C67" H 7560 3120 50  0000 L CNN
+F 1 "4700p" H 7560 2970 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7550 3050 60  0001 C CNN
+F 3 "" H 7550 3050 60  0000 C CNN
+	1    7550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0102
+U 1 1 55779AC4
+P 7550 3200
+F 0 "#PWR0102" H 7550 2950 50  0001 C CNN
+F 1 "GND" H 7550 3050 50  0000 C CNN
+F 2 "" H 7550 3200 60  0000 C CNN
+F 3 "" H 7550 3200 60  0000 C CNN
+	1    7550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R95
+U 1 1 55779ACA
+P 7400 2900
+F 0 "R95" H 7430 2920 50  0000 L CNN
+F 1 "6.2k" H 7430 2860 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7400 2900 60  0001 C CNN
+F 3 "" H 7400 2900 60  0000 C CNN
+	1    7400 2900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8150 4150 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR0109
+U 1 1 55779AE0
+P 8600 3800
+F 0 "#PWR0109" H 8600 3650 50  0001 C CNN
+F 1 "+5V" H 8600 3940 50  0000 C CNN
+F 2 "" H 8600 3800 60  0000 C CNN
+F 3 "" H 8600 3800 60  0000 C CNN
+	1    8600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0110
+U 1 1 55779AE6
+P 8600 4700
+F 0 "#PWR0110" H 8600 4450 50  0001 C CNN
+F 1 "GND" H 8600 4550 50  0000 C CNN
+F 2 "" H 8600 4700 60  0000 C CNN
+F 3 "" H 8600 4700 60  0000 C CNN
+	1    8600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R108
+U 1 1 55779AEC
+P 9400 4250
+F 0 "R108" H 9430 4270 50  0000 L CNN
+F 1 "47" H 9430 4210 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9400 4250 60  0001 C CNN
+F 3 "" H 9400 4250 60  0000 C CNN
+	1    9400 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R112
+U 1 1 55779AFA
+P 9950 4400
+F 0 "R112" H 9980 4420 50  0000 L CNN
+F 1 "10k" H 9980 4360 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9950 4400 60  0001 C CNN
+F 3 "" H 9950 4400 60  0000 C CNN
+	1    9950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0115
+U 1 1 55779B01
+P 9950 4550
+F 0 "#PWR0115" H 9950 4300 50  0001 C CNN
+F 1 "GND" H 9950 4400 50  0000 C CNN
+F 2 "" H 9950 4550 60  0000 C CNN
+F 3 "" H 9950 4550 60  0000 C CNN
+	1    9950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R104
+U 1 1 55779B07
+P 7700 4350
+F 0 "R104" H 7730 4370 50  0000 L CNN
+F 1 "430" H 7730 4310 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7700 4350 60  0001 C CNN
+F 3 "" H 7700 4350 60  0000 C CNN
+	1    7700 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R100
+U 1 1 55779B0E
+P 7550 3950
+F 0 "R100" H 7580 3970 50  0000 L CNN
+F 1 "5.9k" H 7580 3910 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7550 3950 60  0001 C CNN
+F 3 "" H 7550 3950 60  0000 C CNN
+	1    7550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C72
+U 1 1 55779B15
+P 7850 3950
+F 0 "C72" H 7860 4020 50  0000 L CNN
+F 1 "470p" H 7860 3870 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7850 3950 60  0001 C CNN
+F 3 "" H 7850 3950 60  0000 C CNN
+	1    7850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C68
+U 1 1 55779B1C
+P 7550 4500
+F 0 "C68" H 7560 4570 50  0000 L CNN
+F 1 "4700p" H 7560 4420 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7550 4500 60  0001 C CNN
+F 3 "" H 7550 4500 60  0000 C CNN
+	1    7550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0103
+U 1 1 55779B23
+P 7550 4650
+F 0 "#PWR0103" H 7550 4400 50  0001 C CNN
+F 1 "GND" H 7550 4500 50  0000 C CNN
+F 2 "" H 7550 4650 60  0000 C CNN
+F 3 "" H 7550 4650 60  0000 C CNN
+	1    7550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R96
+U 1 1 55779B29
+P 7400 4350
+F 0 "R96" H 7430 4370 50  0000 L CNN
+F 1 "6.2k" H 7430 4310 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7400 4350 60  0001 C CNN
+F 3 "" H 7400 4350 60  0000 C CNN
+	1    7400 4350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8150 5550 1    60   Input ~ 0
+VREF_DAC
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR0111
+U 1 1 55779B31
+P 8600 5200
+F 0 "#PWR0111" H 8600 5050 50  0001 C CNN
+F 1 "+5V" H 8600 5340 50  0000 C CNN
+F 2 "" H 8600 5200 60  0000 C CNN
+F 3 "" H 8600 5200 60  0000 C CNN
+	1    8600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0112
+U 1 1 55779B37
+P 8600 6100
+F 0 "#PWR0112" H 8600 5850 50  0001 C CNN
+F 1 "GND" H 8600 5950 50  0000 C CNN
+F 2 "" H 8600 6100 60  0000 C CNN
+F 3 "" H 8600 6100 60  0000 C CNN
+	1    8600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R109
+U 1 1 55779B3D
+P 9400 5650
+F 0 "R109" H 9430 5670 50  0000 L CNN
+F 1 "47" H 9430 5610 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9400 5650 60  0001 C CNN
+F 3 "" H 9400 5650 60  0000 C CNN
+	1    9400 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R113
+U 1 1 55779B4B
+P 9950 5800
+F 0 "R113" H 9980 5820 50  0000 L CNN
+F 1 "10k" H 9980 5760 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 9950 5800 60  0001 C CNN
+F 3 "" H 9950 5800 60  0000 C CNN
+	1    9950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0116
+U 1 1 55779B52
+P 9950 5950
+F 0 "#PWR0116" H 9950 5700 50  0001 C CNN
+F 1 "GND" H 9950 5800 50  0000 C CNN
+F 2 "" H 9950 5950 60  0000 C CNN
+F 3 "" H 9950 5950 60  0000 C CNN
+	1    9950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R105
+U 1 1 55779B58
+P 7700 5750
+F 0 "R105" H 7730 5770 50  0000 L CNN
+F 1 "430" H 7730 5710 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7700 5750 60  0001 C CNN
+F 3 "" H 7700 5750 60  0000 C CNN
+	1    7700 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R101
+U 1 1 55779B5F
+P 7550 5350
+F 0 "R101" H 7580 5370 50  0000 L CNN
+F 1 "5.9k" H 7580 5310 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7550 5350 60  0001 C CNN
+F 3 "" H 7550 5350 60  0000 C CNN
+	1    7550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C73
+U 1 1 55779B66
+P 7850 5350
+F 0 "C73" H 7860 5420 50  0000 L CNN
+F 1 "470p" H 7860 5270 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7850 5350 60  0001 C CNN
+F 3 "" H 7850 5350 60  0000 C CNN
+	1    7850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C69
+U 1 1 55779B6D
+P 7550 5900
+F 0 "C69" H 7560 5970 50  0000 L CNN
+F 1 "4700p" H 7560 5820 50  0000 L CNN
+F 2 "fdsp_capacitor:C_1206" H 7550 5900 60  0001 C CNN
+F 3 "" H 7550 5900 60  0000 C CNN
+	1    7550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR0104
+U 1 1 55779B74
+P 7550 6050
+F 0 "#PWR0104" H 7550 5800 50  0001 C CNN
+F 1 "GND" H 7550 5900 50  0000 C CNN
+F 2 "" H 7550 6050 60  0000 C CNN
+F 3 "" H 7550 6050 60  0000 C CNN
+	1    7550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:R_Small-fdsp_device R97
+U 1 1 55779B7A
+P 7400 5750
+F 0 "R97" H 7430 5770 50  0000 L CNN
+F 1 "6.2k" H 7430 5710 50  0000 L CNN
+F 2 "fdsp_resistor:R_0603" H 7400 5750 60  0001 C CNN
+F 3 "" H 7400 5750 60  0000 C CNN
+	1    7400 5750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10150 1400 2    60   Output ~ 0
+DAC5_OUT
+Text GLabel 5200 2800 2    60   Output ~ 0
+DAC2_OUT
+Text GLabel 5200 4250 2    60   Output ~ 0
+DAC3_OUT
+Text GLabel 5200 5650 2    60   Output ~ 0
+DAC4_OUT
+Text GLabel 10150 2800 2    60   Output ~ 0
+DAC6_OUT
+Text GLabel 10150 4250 2    60   Output ~ 0
+DAC7_OUT
+Text GLabel 10150 5650 2    60   Output ~ 0
+DAC8_OUT
+Text GLabel 2250 1500 0    60   Input ~ 0
+DAC1
+Text GLabel 2250 2900 0    60   Input ~ 0
+DAC2
+Text GLabel 2250 4350 0    60   Input ~ 0
+DAC3
+Text GLabel 2250 5750 0    60   Input ~ 0
+DAC4
+Text GLabel 7200 1500 0    60   Input ~ 0
+DAC5
+Text GLabel 7200 2900 0    60   Input ~ 0
+DAC6
+Text GLabel 7200 4350 0    60   Input ~ 0
+DAC7
+Text GLabel 7200 5750 0    60   Input ~ 0
+DAC8
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C63
+U 1 1 557BEB95
+P 4750 2800
+F 0 "C63" H 4760 2870 50  0000 L CNN
+F 1 "10u" H 4760 2720 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 4750 2800 60  0001 C CNN
+F 3 "" H 4750 2800 60  0000 C CNN
+	1    4750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C62
+U 1 1 557BF1F1
+P 4750 1400
+F 0 "C62" H 4760 1470 50  0000 L CNN
+F 1 "10u" H 4760 1320 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 4750 1400 60  0001 C CNN
+F 3 "" H 4750 1400 60  0000 C CNN
+	1    4750 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C64
+U 1 1 557BF911
+P 4750 4250
+F 0 "C64" H 4760 4320 50  0000 L CNN
+F 1 "10u" H 4760 4170 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 4750 4250 60  0001 C CNN
+F 3 "" H 4750 4250 60  0000 C CNN
+	1    4750 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C74
+U 1 1 557C023B
+P 9750 1400
+F 0 "C74" H 9760 1470 50  0000 L CNN
+F 1 "10u" H 9760 1320 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 9750 1400 60  0001 C CNN
+F 3 "" H 9750 1400 60  0000 C CNN
+	1    9750 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C75
+U 1 1 557C0413
+P 9750 2800
+F 0 "C75" H 9760 2870 50  0000 L CNN
+F 1 "10u" H 9760 2720 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 9750 2800 60  0001 C CNN
+F 3 "" H 9750 2800 60  0000 C CNN
+	1    9750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C76
+U 1 1 557C0F21
+P 9750 4250
+F 0 "C76" H 9760 4320 50  0000 L CNN
+F 1 "10u" H 9760 4170 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 9750 4250 60  0001 C CNN
+F 3 "" H 9750 4250 60  0000 C CNN
+	1    9750 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:CP_Small-fdsp_device C77
+U 1 1 557C1551
+P 9750 5650
+F 0 "C77" H 9760 5720 50  0000 L CNN
+F 1 "10u" H 9760 5570 50  0000 L CNN
+F 2 "fdsp_capacitor:C_Radial_D10_L16_P5" H 9750 5650 60  0001 C CNN
+F 3 "" H 9750 5650 60  0000 C CNN
+	1    9750 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C56
+U 1 1 557B978D
+P 2600 7000
+F 0 "C56" H 2610 7070 50  0000 L CNN
+F 1 "100n" H 2610 6920 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 2600 7000 60  0001 C CNN
+F 3 "" H 2600 7000 60  0000 C CNN
+	1    2600 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:C_Small-fdsp_device C57
+U 1 1 557BA260
+P 2850 7000
+F 0 "C57" H 2860 7070 50  0000 L CNN
+F 1 "100n" H 2860 6920 50  0000 L CNN
+F 2 "fdsp_capacitor:C_0603" H 2850 7000 60  0001 C CNN
+F 3 "" H 2850 7000 60  0000 C CNN
+	1    2850 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1300 3200 1300
+Wire Wire Line
+	3650 1800 3650 1850
+Wire Wire Line
+	3650 1000 3650 950 
+Wire Wire Line
+	4550 1400 4650 1400
+Wire Wire Line
+	5000 1400 5000 1450
+Connection ~ 5000 1400
+Wire Wire Line
+	5000 1650 5000 1700
+Wire Wire Line
+	2550 1500 2600 1500
+Wire Wire Line
+	2600 1200 2600 1500
+Connection ~ 2600 1500
+Wire Wire Line
+	2900 1500 2900 1200
+Connection ~ 2900 1500
+Wire Wire Line
+	2900 1000 2900 700 
+Wire Wire Line
+	4300 700  4300 1400
+Connection ~ 4300 1400
+Wire Wire Line
+	4250 1400 4300 1400
+Wire Wire Line
+	2350 1500 2250 1500
+Wire Wire Line
+	2600 1000 2600 700 
+Connection ~ 2900 700 
+Wire Wire Line
+	2850 1500 2900 1500
+Wire Wire Line
+	2600 700  2900 700 
+Wire Wire Line
+	2600 1800 2600 1750
+Wire Wire Line
+	3250 2700 3200 2700
+Wire Wire Line
+	3650 3200 3650 3250
+Wire Wire Line
+	3650 2400 3650 2350
+Wire Wire Line
+	4550 2800 4650 2800
+Wire Wire Line
+	5000 2800 5000 2850
+Connection ~ 5000 2800
+Wire Wire Line
+	5000 3050 5000 3100
+Wire Wire Line
+	2550 2900 2600 2900
+Wire Wire Line
+	2600 2600 2600 2900
+Connection ~ 2600 2900
+Wire Wire Line
+	2900 2900 2900 2600
+Connection ~ 2900 2900
+Wire Wire Line
+	2900 2400 2900 2100
+Wire Wire Line
+	4300 2100 4300 2800
+Connection ~ 4300 2800
+Wire Wire Line
+	4250 2800 4300 2800
+Wire Wire Line
+	2350 2900 2250 2900
+Wire Wire Line
+	2600 2400 2600 2100
+Connection ~ 2900 2100
+Wire Wire Line
+	2850 2900 2900 2900
+Wire Wire Line
+	2600 2100 2900 2100
+Wire Wire Line
+	2600 3200 2600 3150
+Wire Wire Line
+	3250 4150 3200 4150
+Wire Wire Line
+	3650 4650 3650 4700
+Wire Wire Line
+	3650 3850 3650 3800
+Wire Wire Line
+	4550 4250 4650 4250
+Wire Wire Line
+	4850 4250 5000 4250
+Wire Wire Line
+	5000 4250 5000 4300
+Connection ~ 5000 4250
+Wire Wire Line
+	5000 4500 5000 4550
+Wire Wire Line
+	2550 4350 2600 4350
+Wire Wire Line
+	2600 4050 2600 4350
+Connection ~ 2600 4350
+Wire Wire Line
+	2900 4350 2900 4050
+Connection ~ 2900 4350
+Wire Wire Line
+	2900 3850 2900 3550
+Wire Wire Line
+	4300 3550 4300 4250
+Connection ~ 4300 4250
+Wire Wire Line
+	4250 4250 4300 4250
+Wire Wire Line
+	2350 4350 2250 4350
+Wire Wire Line
+	2600 3850 2600 3550
+Connection ~ 2900 3550
+Wire Wire Line
+	2850 4350 2900 4350
+Wire Wire Line
+	2600 3550 2900 3550
+Wire Wire Line
+	2600 4650 2600 4600
+Wire Wire Line
+	3250 5550 3200 5550
+Wire Wire Line
+	3650 6050 3650 6100
+Wire Wire Line
+	3650 5250 3650 5200
+Wire Wire Line
+	4550 5650 4650 5650
+Wire Wire Line
+	4850 5650 5000 5650
+Wire Wire Line
+	5000 5650 5000 5700
+Connection ~ 5000 5650
+Wire Wire Line
+	5000 5900 5000 5950
+Wire Wire Line
+	2550 5750 2600 5750
+Wire Wire Line
+	2600 5450 2600 5750
+Connection ~ 2600 5750
+Wire Wire Line
+	2900 5750 2900 5450
+Connection ~ 2900 5750
+Wire Wire Line
+	2900 5250 2900 4950
+Wire Wire Line
+	4300 4950 4300 5650
+Connection ~ 4300 5650
+Wire Wire Line
+	4250 5650 4300 5650
+Wire Wire Line
+	2350 5750 2250 5750
+Wire Wire Line
+	2600 5250 2600 4950
+Connection ~ 2900 4950
+Wire Wire Line
+	2850 5750 2900 5750
+Wire Wire Line
+	2600 4950 2900 4950
+Wire Wire Line
+	2600 6050 2600 6000
+Wire Wire Line
+	8200 1300 8150 1300
+Wire Wire Line
+	8600 1800 8600 1850
+Wire Wire Line
+	8600 1000 8600 950 
+Wire Wire Line
+	9500 1400 9650 1400
+Wire Wire Line
+	9850 1400 9950 1400
+Wire Wire Line
+	9950 1400 9950 1450
+Connection ~ 9950 1400
+Wire Wire Line
+	9950 1650 9950 1700
+Wire Wire Line
+	7500 1500 7550 1500
+Wire Wire Line
+	7550 1200 7550 1500
+Connection ~ 7550 1500
+Wire Wire Line
+	7850 1500 7850 1200
+Connection ~ 7850 1500
+Wire Wire Line
+	7850 1000 7850 700 
+Wire Wire Line
+	9250 700  9250 1400
+Connection ~ 9250 1400
+Wire Wire Line
+	9200 1400 9250 1400
+Wire Wire Line
+	7300 1500 7200 1500
+Wire Wire Line
+	7550 1000 7550 700 
+Connection ~ 7850 700 
+Wire Wire Line
+	7800 1500 7850 1500
+Wire Wire Line
+	7550 700  7850 700 
+Wire Wire Line
+	7550 1800 7550 1750
+Wire Wire Line
+	8200 2700 8150 2700
+Wire Wire Line
+	8600 3200 8600 3250
+Wire Wire Line
+	8600 2400 8600 2350
+Wire Wire Line
+	9500 2800 9650 2800
+Wire Wire Line
+	9850 2800 9950 2800
+Wire Wire Line
+	9950 2800 9950 2850
+Connection ~ 9950 2800
+Wire Wire Line
+	9950 3050 9950 3100
+Wire Wire Line
+	7500 2900 7550 2900
+Wire Wire Line
+	7550 2600 7550 2900
+Connection ~ 7550 2900
+Wire Wire Line
+	7850 2900 7850 2600
+Connection ~ 7850 2900
+Wire Wire Line
+	7850 2400 7850 2100
+Wire Wire Line
+	9250 2100 9250 2800
+Connection ~ 9250 2800
+Wire Wire Line
+	9200 2800 9250 2800
+Wire Wire Line
+	7300 2900 7200 2900
+Wire Wire Line
+	7550 2400 7550 2100
+Connection ~ 7850 2100
+Wire Wire Line
+	7800 2900 7850 2900
+Wire Wire Line
+	7550 2100 7850 2100
+Wire Wire Line
+	7550 3200 7550 3150
+Wire Wire Line
+	8200 4150 8150 4150
+Wire Wire Line
+	8600 4650 8600 4700
+Wire Wire Line
+	8600 3850 8600 3800
+Wire Wire Line
+	9500 4250 9650 4250
+Wire Wire Line
+	9850 4250 9950 4250
+Wire Wire Line
+	9950 4250 9950 4300
+Connection ~ 9950 4250
+Wire Wire Line
+	9950 4500 9950 4550
+Wire Wire Line
+	7500 4350 7550 4350
+Wire Wire Line
+	7550 4050 7550 4350
+Connection ~ 7550 4350
+Wire Wire Line
+	7850 4350 7850 4050
+Connection ~ 7850 4350
+Wire Wire Line
+	7850 3850 7850 3550
+Wire Wire Line
+	9250 3550 9250 4250
+Connection ~ 9250 4250
+Wire Wire Line
+	9200 4250 9250 4250
+Wire Wire Line
+	7300 4350 7200 4350
+Wire Wire Line
+	7550 3850 7550 3550
+Connection ~ 7850 3550
+Wire Wire Line
+	7800 4350 7850 4350
+Wire Wire Line
+	7550 3550 7850 3550
+Wire Wire Line
+	7550 4650 7550 4600
+Wire Wire Line
+	8200 5550 8150 5550
+Wire Wire Line
+	8600 6050 8600 6100
+Wire Wire Line
+	8600 5250 8600 5200
+Wire Wire Line
+	9500 5650 9650 5650
+Wire Wire Line
+	9850 5650 9950 5650
+Wire Wire Line
+	9950 5650 9950 5700
+Connection ~ 9950 5650
+Wire Wire Line
+	9950 5900 9950 5950
+Wire Wire Line
+	7500 5750 7550 5750
+Wire Wire Line
+	7550 5450 7550 5750
+Connection ~ 7550 5750
+Wire Wire Line
+	7850 5750 7850 5450
+Connection ~ 7850 5750
+Wire Wire Line
+	7850 5250 7850 4950
+Wire Wire Line
+	9250 4950 9250 5650
+Connection ~ 9250 5650
+Wire Wire Line
+	9200 5650 9250 5650
+Wire Wire Line
+	7300 5750 7200 5750
+Wire Wire Line
+	7550 5250 7550 4950
+Connection ~ 7850 4950
+Wire Wire Line
+	7800 5750 7850 5750
+Wire Wire Line
+	7550 4950 7850 4950
+Wire Wire Line
+	7550 6050 7550 6000
+Wire Wire Line
+	4850 1400 5000 1400
+Wire Wire Line
+	4850 2800 5000 2800
+Wire Wire Line
+	2600 6800 2600 6850
+Wire Wire Line
+	2850 6850 2850 6900
+Wire Wire Line
+	2600 7100 2600 7150
+Wire Wire Line
+	2850 7150 2850 7100
+Connection ~ 2600 7150
+$Comp
+L freeDSP_1452-rescue:GND-fdsp_power #PWR088
+U 1 1 557BAFAA
+P 2600 7200
+F 0 "#PWR088" H 2600 6950 50  0001 C CNN
+F 1 "GND" H 2600 7050 50  0000 C CNN
+F 2 "" H 2600 7200 60  0000 C CNN
+F 3 "" H 2600 7200 60  0000 C CNN
+	1    2600 7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 6850
+$Comp
+L freeDSP_1452-rescue:+5V-fdsp_power #PWR087
+U 1 1 557BB171
+P 2600 6800
+F 0 "#PWR087" H 2600 6650 50  0001 C CNN
+F 1 "+5V" H 2600 6940 50  0000 C CNN
+F 2 "" H 2600 6800 60  0000 C CNN
+F 3 "" H 2600 6800 60  0000 C CNN
+	1    2600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U8
+U 1 1 59A520FC
+P 3750 1400
+F 0 "U8" H 3700 1600 60  0000 L CNN
+F 1 "OPA4353" H 3700 1150 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 3750 1400 60  0001 C CNN
+F 3 "" H 3750 1400 60  0000 C CNN
+	1    3750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U8
+U 2 1 59A525C0
+P 3750 2800
+F 0 "U8" H 3700 3000 60  0000 L CNN
+F 1 "OPA4353" H 3700 2550 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 3750 2800 60  0001 C CNN
+F 3 "" H 3750 2800 60  0000 C CNN
+	2    3750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U8
+U 3 1 59A52E61
+P 3750 4250
+F 0 "U8" H 3700 4450 60  0000 L CNN
+F 1 "OPA4353" H 3700 4000 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 3750 4250 60  0001 C CNN
+F 3 "" H 3750 4250 60  0000 C CNN
+	3    3750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U8
+U 4 1 59A534CC
+P 3750 5650
+F 0 "U8" H 3700 5850 60  0000 L CNN
+F 1 "OPA4353" H 3700 5400 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 3750 5650 60  0001 C CNN
+F 3 "" H 3750 5650 60  0000 C CNN
+	4    3750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U9
+U 1 1 59A53D7F
+P 8700 1400
+F 0 "U9" H 8650 1600 60  0000 L CNN
+F 1 "OPA4353" H 8650 1150 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 8700 1400 60  0001 C CNN
+F 3 "" H 8700 1400 60  0000 C CNN
+	1    8700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U9
+U 2 1 59A53E9E
+P 8700 2800
+F 0 "U9" H 8650 3000 60  0000 L CNN
+F 1 "OPA4353" H 8650 2550 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 8700 2800 60  0001 C CNN
+F 3 "" H 8700 2800 60  0000 C CNN
+	2    8700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U9
+U 3 1 59A54553
+P 8700 4250
+F 0 "U9" H 8650 4450 60  0000 L CNN
+F 1 "OPA4353" H 8650 4000 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 8700 4250 60  0001 C CNN
+F 3 "" H 8700 4250 60  0000 C CNN
+	3    8700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L freeDSP_1452-rescue:OPA4353-fdsp_amplifier U9
+U 4 1 59A54745
+P 8700 5650
+F 0 "U9" H 8650 5850 60  0000 L CNN
+F 1 "OPA4353" H 8650 5400 60  0000 L CNN
+F 2 "fdsp_housing:TSSOP-16_4.4x5mm_Pitch0.65mm" H 8700 5650 60  0001 C CNN
+F 3 "" H 8700 5650 60  0000 C CNN
+	4    8700 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 6850 2600 6850
+Wire Wire Line
+	2850 7150 2600 7150
+Text Notes 1200 7600 0    79   ~ 0
+ToDo: Replace with dual-supply opamps & use reference filter design provided by Robert K.
+Wire Wire Line
+	5000 1400 5200 1400
+Wire Wire Line
+	2600 1500 2650 1500
+Wire Wire Line
+	2600 1500 2600 1550
+Wire Wire Line
+	2900 1500 3250 1500
+Wire Wire Line
+	4300 1400 4350 1400
+Wire Wire Line
+	2900 700  4300 700 
+Wire Wire Line
+	5000 2800 5200 2800
+Wire Wire Line
+	2600 2900 2650 2900
+Wire Wire Line
+	2600 2900 2600 2950
+Wire Wire Line
+	2900 2900 3250 2900
+Wire Wire Line
+	4300 2800 4350 2800
+Wire Wire Line
+	2900 2100 4300 2100
+Wire Wire Line
+	5000 4250 5200 4250
+Wire Wire Line
+	2600 4350 2650 4350
+Wire Wire Line
+	2600 4350 2600 4400
+Wire Wire Line
+	2900 4350 3250 4350
+Wire Wire Line
+	4300 4250 4350 4250
+Wire Wire Line
+	2900 3550 4300 3550
+Wire Wire Line
+	5000 5650 5200 5650
+Wire Wire Line
+	2600 5750 2650 5750
+Wire Wire Line
+	2600 5750 2600 5800
+Wire Wire Line
+	2900 5750 3250 5750
+Wire Wire Line
+	4300 5650 4350 5650
+Wire Wire Line
+	2900 4950 4300 4950
+Wire Wire Line
+	9950 1400 10150 1400
+Wire Wire Line
+	7550 1500 7600 1500
+Wire Wire Line
+	7550 1500 7550 1550
+Wire Wire Line
+	7850 1500 8200 1500
+Wire Wire Line
+	9250 1400 9300 1400
+Wire Wire Line
+	7850 700  9250 700 
+Wire Wire Line
+	9950 2800 10150 2800
+Wire Wire Line
+	7550 2900 7600 2900
+Wire Wire Line
+	7550 2900 7550 2950
+Wire Wire Line
+	7850 2900 8200 2900
+Wire Wire Line
+	9250 2800 9300 2800
+Wire Wire Line
+	7850 2100 9250 2100
+Wire Wire Line
+	9950 4250 10150 4250
+Wire Wire Line
+	7550 4350 7600 4350
+Wire Wire Line
+	7550 4350 7550 4400
+Wire Wire Line
+	7850 4350 8200 4350
+Wire Wire Line
+	9250 4250 9300 4250
+Wire Wire Line
+	7850 3550 9250 3550
+Wire Wire Line
+	9950 5650 10150 5650
+Wire Wire Line
+	7550 5750 7600 5750
+Wire Wire Line
+	7550 5750 7550 5800
+Wire Wire Line
+	7850 5750 8200 5750
+Wire Wire Line
+	9250 5650 9300 5650
+Wire Wire Line
+	7850 4950 9250 4950
+Wire Wire Line
+	2600 7150 2600 7200
+Wire Wire Line
+	2600 6850 2600 6900
+$EndSCHEMATC
